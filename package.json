@@ -1,0 +1,33 @@
+{
+  "name": "v4hackersbackend",
+  "version": "1.0.0",
+  "description": "Awesome Backend for MEAN stack Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://codehub-repo.ad.infosys.com/sathyamoorthy.p/v4HackersBackend.git"
+  },
+  "keywords": [
+    "Express.js",
+    "Node.js",
+    "MongoDB",
+    "MEAN",
+    "Stack"
+  ],
+  "author": "sathyamoorthy.p@infosys.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.0.17",
+    "morgan": "^1.9.0",
+    "shortid": "^2.2.8",
+    "winston": "^2.4.2"
+  }
+}
