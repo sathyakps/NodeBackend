@@ -877,3 +877,28 @@
 {"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-13T11:21:11.703Z"}
 {"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-13T11:22:50.206Z"}
 {"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-13T11:22:50.535Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-14T16:29:32.055Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-14T16:29:32.657Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-14T16:33:03.722Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-14T16:33:04.040Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-14T16:35:02.774Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-14T16:35:03.031Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-14T16:37:22.792Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-14T16:37:23.129Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-14T18:28:12.000Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-14T18:28:12.464Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-14T18:28:36.489Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-14T18:28:36.683Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-14T18:36:50.731Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-14T18:36:50.909Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-14T18:38:09.704Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-14T18:38:09.909Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-14T18:38:39.084Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-14T18:38:39.288Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-14T18:39:30.411Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-14T18:39:30.679Z"}
+{"message":"Converting circular structure to JSON","stack":"TypeError: Converting circular structure to JSON\n    at JSON.stringify (<anonymous>)\n    at stringify (C:\\Users\\Sathya\\Desktop\\v4backend\\node_modules\\express\\lib\\response.js:1119:12)\n    at ServerResponse.json (C:\\Users\\Sathya\\Desktop\\v4backend\\node_modules\\express\\lib\\response.js:260:14)\n    at ServerResponse.send (C:\\Users\\Sathya\\Desktop\\v4backend\\node_modules\\express\\lib\\response.js:158:21)\n    at products.PRODUCT.find.then.data (C:\\Users\\Sathya\\Desktop\\v4backend\\controllers\\admin.controllers.js:68:8)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:160:7)","level":"error","timestamp":"2018-05-14T18:39:37.579Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-14T18:40:11.048Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-14T18:40:11.246Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-14T18:45:06.750Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-14T18:45:07.002Z"}

@@ -3,6 +3,7 @@ var express = require('express'),
 	controllers = require('../controllers/admin.controllers');
 
 router.post('/product', controllers.addProduct);
+router.get('/products', controllers.getAllProducts);
 router.get('/product/:adminId', controllers.getProduct);
 router.get('/product/activate/:productId', controllers.activateProduct);
 router.put('/product/:productId', controllers.updateProduct);

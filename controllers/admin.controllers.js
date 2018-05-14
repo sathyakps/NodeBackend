@@ -61,3 +61,14 @@ module.exports.activateProduct = (req, res, next) => {
 			res.send(tools.createErrorResponse({ message: 'Failed deactivated Product', error: err }));
 		});
 };
+
+module.exports.getAllProducts = (req, res, next) => {
+	products.PRODUCT.find({ active: true })
+		.then(data => {
+			res.send(tools.createSuccessResponse({ message: 'All Products', data: data }));
+		})
+		.catch(err => {
+			logger.error(err);
+			res.send(tools.createErrorResponse({ message: 'Failed Fetching Products', error: err }));
+		});
+};

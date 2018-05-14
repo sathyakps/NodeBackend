@@ -13,7 +13,9 @@ module.exports.login = (req, res, next) => {
 				userData.comparePassword(req.body.password, function(err, isMatch) {
 					if (err) throw err;
 					if (isMatch) {
-						res.send(tools.createSuccessResponse({ message: 'User Logged in Successfully' }));
+						res.send(
+							tools.createSuccessResponse({ message: 'User Logged in Successfully', data: userData })
+						);
 					} else {
 						res.send(tools.createErrorResponse({ message: 'Invalid Password' }));
 					}

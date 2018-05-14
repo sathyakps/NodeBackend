@@ -36,7 +36,8 @@ var userSchema = new Schema(
 		iTransactionId2: { type: Array, default: [] },
 		referralCode: { type: String, default: shortId.generate, unique: true },
 		productCodes: { type: Array, default: [] },
-		rewardPoints: { type: Number, default: 0 }
+		rewardPoints: { type: Number, default: 0 },
+		role: { type: String, default: Role.USER }
 	},
 	{ timestamps: true, _id: true, strict: false }
 );
