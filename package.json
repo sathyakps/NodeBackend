@@ -4,11 +4,12 @@
   "description": "Awesome Backend for MEAN stack Application",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://codehub-repo.ad.infosys.com/sathyamoorthy.p/v4HackersBackend.git"
+    "url": "https://github.com/sathyakps/NodeBackend.git"
   },
   "keywords": [
     "Express.js",
