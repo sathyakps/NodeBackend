@@ -35,7 +35,7 @@ module.exports.getProduct = (req, res, next) => {
 };
 module.exports.updateProduct = (req, res, next) => {
 	var productId = new mongoose.Types.ObjectId(req.params.productId);
-	products.PRODUCT.findByIdAndUpdate({ _id: productId }, req.body)
+	products.PRODUCT.findByIdAndUpdate({ _id: productId }, req.body , { new: true },)
 		.then(data => {
 			res.send(tools.createSuccessResponse({ message: 'Product Updated Successfully', data: data }));
 		})
@@ -46,7 +46,7 @@ module.exports.updateProduct = (req, res, next) => {
 
 module.exports.deactivateProduct = (req, res, next) => {
 	var productId = new mongoose.Types.ObjectId(req.params.productId);
-	products.PRODUCT.findOneAndUpdate({ _id: productId }, { active: false })
+	products.PRODUCT.findOneAndUpdate({ _id: productId }, { active: false } , { new: true },)
 		.then(res.send(tools.createSuccessResponse({ message: 'Product Deactivated Successfully' })))
 		.catch(err => {
 			res.send(tools.createErrorResponse({ message: 'Failed Deactivating Product', error: err }));
@@ -55,7 +55,7 @@ module.exports.deactivateProduct = (req, res, next) => {
 
 module.exports.activateProduct = (req, res, next) => {
 	var productId = new mongoose.Types.ObjectId(req.params.productId);
-	products.PRODUCT.findOneAndUpdate({ _id: productId }, { active: true })
+	products.PRODUCT.findOneAndUpdate({ _id: productId }, { active: true } , { new: true },)
 		.then(res.send(tools.createSuccessResponse({ message: 'Product Activated Successfully' })))
 		.catch(err => {
 			res.send(tools.createErrorResponse({ message: 'Failed deactivated Product', error: err }));
