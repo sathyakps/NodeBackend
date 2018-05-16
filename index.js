@@ -16,7 +16,7 @@ var router = express.Router();
 // Using Morgan and Winston for logging
 // app.use(morgan('combined', { stream: logger.stream }));
 
-var port = proecess.env.port || 3000;
+var port = process.env.port || 3000;
 
 app.use(express.static(path.join(__dirname,'dist/index.html')));
 
