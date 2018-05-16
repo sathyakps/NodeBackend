@@ -15,7 +15,7 @@ var router = express.Router();
 // Using Morgan and Winston for logging
 // app.use(morgan('combined', { stream: logger.stream }));
 
-var port = 3000;
+var port = process.env.PORT || 3000;
 
 // Using body parser, so we can get info from POST and/or URL parameters
 app.use(bodyParser.urlencoded({ extended: true }));
