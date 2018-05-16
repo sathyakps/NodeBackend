@@ -41,7 +41,7 @@ var mobileSchema = new Schema({
 var tvSchema = new Schema({
 	screenSize: Number,
 	screenType: String,
-	smartTv: Boolean,
+	smartTv: String,
 	speakerOutput: Number
 });
 

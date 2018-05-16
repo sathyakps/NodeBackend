@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var shortId = require('shortid');
 var productReferSchema = require('./productCode');
-var bcrypt = require('bcrypt');
+var bcrypt = require('bcryptjs');
 var SALT_WORK_FACTOR = 4;
 const Role = {
 	SUPER_ADMIN: 'SUPER_ADMIN',

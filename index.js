@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var logger = require('./utils/logger');
 var tools = require('./utils/tools');
 var mongoose = require('./utils/mongoose');
-
+var path = require('path');
 
 // Loading .ENV files into the environment using dotenv
 require('dotenv').config();
@@ -16,7 +16,9 @@ var router = express.Router();
 // Using Morgan and Winston for logging
 // app.use(morgan('combined', { stream: logger.stream }));
 
-var port = process.env.PORT || 3000;
+var port = 3000;
+
+app.use(express.static(path.join(__dirname,'dist/index.html')));
 
 // Using body parser, so we can get info from POST and/or URL parameters
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -44,5 +46,9 @@ app.use('/transactions', transactionRoutes);
 app.use('/referral', refer);
 app.use('/data', data);
 
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname,'dist/v4Hackers/index.html'));
+})
 // Starting the Express Server
 app.listen(port, logger.info(`Application Started and running in ${port}`));

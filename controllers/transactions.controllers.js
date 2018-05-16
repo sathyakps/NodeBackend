@@ -98,7 +98,7 @@ module.exports.updateIndirectTransation1 = (req, res, next) => {
 			{ new: true },
 			(err, data) => {
 				if (!err) {
-					addTransactionToProduct(res.locals.transactionData.productId, res.locals.transactionData._id);
+					// addTransactionToProduct(res.locals.transactionData.productId, res.locals.transactionData._id);
 					res.send(
 						tools.createSuccessResponse({
 							message: 'Transaction Successfull',
