@@ -98,7 +98,13 @@ module.exports.updateIndirectTransation1 = (req, res, next) => {
 			{ new: true },
 			(err, data) => {
 				if (!err) {
-					// addTransactionToProduct(res.locals.transactionData.productId, res.locals.transactionData._id);
+					res.send(
+						tools.createSuccessResponse({
+							message: 'Transaction Successfull',
+							data: res.locals.transactionData
+						})
+					);
+				} else {
 					res.send(
 						tools.createSuccessResponse({
 							message: 'Transaction Successfull',
@@ -107,6 +113,13 @@ module.exports.updateIndirectTransation1 = (req, res, next) => {
 					);
 				}
 			}
+		);
+	} else {
+		res.send(
+			tools.createSuccessResponse({
+				message: 'Transaction Successfull',
+				data: res.locals.transactionData
+			})
 		);
 	}
 };

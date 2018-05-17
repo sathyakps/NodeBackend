@@ -9,8 +9,9 @@ module.exports.generateReferralCode = (req, res, next) => {
 	user
 		.findOne({
 			email: req.params.email,
-			'productCodes.discount': req.body.discount,
-			'productCodes.productId': new mongoose.Types.ObjectId(req.body.productId)
+			productCodes: {
+				$elemMatch: { discount: req.body.discount, productId: new mongoose.Types.ObjectId(req.body.productId) }
+			}
 		})
 		.then(data => {
 			if (!data) {

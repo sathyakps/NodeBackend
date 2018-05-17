@@ -960,3 +960,36 @@
 {"date":"Thu May 17 2018 00:29:07 GMT+0530 (India Standard Time)","process":{"pid":8604,"uid":null,"gid":null,"cwd":"C:\\Users\\Sathya\\Desktop\\open_hack\\backend","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v9.3.0","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Sathya\\Desktop\\open_hack\\backend\\index"],"memoryUsage":{"rss":51707904,"heapTotal":36601856,"heapUsed":19115736,"external":18702812}},"os":{"loadavg":[0,0,0],"uptime":395784.5159944},"trace":[{"column":13,"file":"util.js","function":"Object._errnoException","line":999,"method":"_errnoException","native":false},{"column":20,"file":"util.js","function":"_exceptionWithHostPort","line":1020,"method":null,"native":false},{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1379,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1420,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1508,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\Sathya\\Desktop\\open_hack\\backend\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\Sathya\\Desktop\\open_hack\\backend\\index.js","function":null,"line":54,"method":null,"native":false},{"column":30,"file":"module.js","function":"Module._compile","line":660,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Module._extensions..js","line":671,"method":".js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":573,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":513,"method":null,"native":false},{"column":3,"file":"module.js","function":"Module._load","line":505,"method":"_load","native":false},{"column":10,"file":"module.js","function":"Module.runMain","line":701,"method":"runMain","native":false},{"column":16,"file":"bootstrap_node.js","function":"startup","line":194,"method":null,"native":false},{"column":3,"file":"bootstrap_node.js","function":null,"line":618,"method":null,"native":false}],"stack":["Error: listen EADDRINUSE :::3000","    at Object._errnoException (util.js:999:13)","    at _exceptionWithHostPort (util.js:1020:20)","    at Server.setupListenHandle [as _listen2] (net.js:1379:14)","    at listenInCluster (net.js:1420:12)","    at Server.listen (net.js:1508:7)","    at Function.listen (C:\\Users\\Sathya\\Desktop\\open_hack\\backend\\node_modules\\express\\lib\\application.js:618:24)","    at Object.<anonymous> (C:\\Users\\Sathya\\Desktop\\open_hack\\backend\\index.js:54:5)","    at Module._compile (module.js:660:30)","    at Object.Module._extensions..js (module.js:671:10)","    at Module.load (module.js:573:32)","    at tryModuleLoad (module.js:513:12)","    at Function.Module._load (module.js:505:3)","    at Function.Module.runMain (module.js:701:10)","    at startup (bootstrap_node.js:194:16)","    at bootstrap_node.js:618:3"],"level":"error","message":"uncaughtException: listen EADDRINUSE :::3000","timestamp":"2018-05-16T18:59:07.894Z"}
 {"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-16T18:59:43.622Z"}
 {"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-16T18:59:43.737Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T05:17:17.315Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T05:17:17.969Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T05:23:42.736Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T16:31:53.232Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T16:31:53.344Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T17:03:31.563Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T17:03:32.004Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T17:04:07.857Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T17:04:07.944Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T17:04:47.387Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T17:04:47.477Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T17:05:30.296Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T17:05:30.410Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T17:08:03.625Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T17:08:03.711Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T17:12:55.578Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T17:12:55.666Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T17:15:07.894Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T17:15:08.003Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T17:25:56.415Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T17:25:56.536Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T17:27:10.344Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T17:27:10.458Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T17:29:19.954Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T17:29:20.135Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T17:30:08.730Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T17:30:08.954Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T17:30:56.293Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T17:30:56.386Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T17:39:19.307Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T17:39:19.409Z"}
+{"level":"info","message":"Moongoose is Connected to Atlas","timestamp":"2018-05-17T17:41:10.111Z"}
+{"level":"info","message":"Application Started and running in 3000","timestamp":"2018-05-17T17:41:10.214Z"}
